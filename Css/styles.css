@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    padding: 30px;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.details-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    
+}
+
+.description-container{
+    max-width: 479px;
+}
+
+.ingredients-steps-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.steps-container{
+    max-width: 550px;
+}
+
+.return-mainPage{
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
